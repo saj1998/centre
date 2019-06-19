@@ -1,0 +1,542 @@
+body{
+	font-family: "微软雅黑";
+	padding: 0;
+	margin: 0;
+}
+.container{
+	/* width: 970px; */
+	/* border: #0BA1E4 solid 1px; */
+}
+.navbar{
+	height: 80px;
+	border-bottom: #66AFE9 solid 1px;
+}
+
+.navbar-header .navbar-brand img{
+	height: 55px;
+}
+.nav{
+	margin-top: 15px;
+	
+}
+.navbar-collapse .nav .nav-li a:hover{
+	color:#66AFE9  ;
+}
+.nav .nav-li .line-top{
+	
+    border-top: 1px solid #0ba1e4;
+	width: 18px;
+    margin: auto; 
+}
+
+/* index 首页 */
+/* 成绩 */
+#s1{
+	background:#F8F8F8;
+}
+ .s1-c{
+	margin-top: 60px;
+	text-align: center;
+}
+ .s1-c .line-top1{
+    border-top: 3px solid #0ba1e4;
+	width: 100px;
+    margin: 30px auto;
+}
+
+.s1-c .row{
+	margin-top: 55px;
+	margin-bottom: 50px;
+}
+
+/* 优势 */
+#s2{
+	background:#e1e1e1;
+}
+#s2 .our-whyus-item{
+	/* border: #c1c1c1 solid 1px; */
+	height: 300px;
+	text-align: center;
+    background-color: #fafafa;
+    padding: 10px;
+}
+#s2 .glyphicon{
+	color: #0ba1e4;
+	font-size: 80px;
+	line-height: 1.5em;
+}
+#s2 .our-whyus-item:hover{
+	background: #0BA1E4;
+	color: white;
+}
+#s2 .our-whyus-item:hover span{
+	color: white;
+}
+
+
+ /* 服务 */
+#s3 .col-sm-3 .our-whyus-item p{
+	padding: 10px;
+}
+#s3 .col-sm-3 .our-whyus-item{
+	border: #c1c1c1 solid 1px;
+    background-color: #fafafa;
+	padding: 30px 0px 30px 0px;
+}
+#s3 .xia a{
+	border:#0BA1E4 solid 1px ;
+}
+#s3 .sha{
+	border-bottom: lightgray solid 1px;
+}
+#s3 .sha h4{
+	font-weight: bold;
+	color: #0BA1E4;
+}
+#s3 .col-sm-3 .our-whyus-item:hover .sha{
+	border-bottom: white solid 1px;
+}
+#s3 .col-sm-3 .our-whyus-item:hover h4{
+	color: white;
+	/* border: white solid 1px; */
+}
+#s3 .col-sm-3 .our-whyus-item:hover{
+	background: #0BA1E4;
+	color: white;
+	 /* padding: 40px  0px  40px  0px; */
+}
+#s3 .col-sm-3 .our-whyus-item:hover a{
+	color: white;
+	border: white solid 1px;
+}
+#s3 .col-sm-3 .our-whyus-item a:hover{
+	background: white;
+	color: #0BA1E4;
+}
+.butt{
+	color: #0BA1E4;
+	border: #0BA1E4 solid 1px;
+}
+.butt:hover{
+	background: #0BA1E4;
+	color: white;
+	border: white solid 1px;
+}
+
+/* 鼓励 */
+#s4{
+	background:#e1e1e1 ;
+}
+#s4 .our-whyus-item{
+	border: mediumseagreen solid 1px;
+/* 	padding: 0px -20px 0px -20px; */
+}
+#s4 .our-whyus-item img{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin-top: -30px;
+}
+#s4 .our-whyus-item p{
+	padding:15px 18px 10px 18px;
+}
+.tub{
+	background:#e1e1e1 ;
+	/* border: red solid 1px; */
+	height: 25px;
+	width: 25px;
+	margin-bottom: -10px;
+}
+.tub .glyphicon{
+	font-size: 25px;
+}
+.tubb{
+	margin-top:7px;
+	color: mediumseagreen;
+}
+.iocn{
+	width:70px;
+	height: 70px;
+	border:mediumseagreen solid 1px ;
+	border-radius: 50%;
+	margin-top: 40px;
+	font-size: 70px;
+	color:mediumseagreen ;
+}
+
+.tub .glyphicon .glyphicon-menu-down{
+	height: 20px;
+	width: 20px;
+}
+.er{
+	margin-top: 40px;
+}
+/* 资讯 */
+#s5 .well{
+	border: none;
+	background: white;
+	text-align: left;
+	color: darkgray;
+}
+#s5 .well img{
+	height: 120px;
+	width: 150px;
+	border: darkgray solid 1px;
+	padding: 5px;
+	border-radius: 5%;
+}
+#s5 .well h4{
+	color: #0BA1E4;
+}
+#s5 .well h4:hover{
+	color: #0BA1E4;
+	font-weight: bold;
+}
+#s5 .well a{
+	text-decoration: none;
+	color: darkgray;
+}
+#s5 .well a:hover{
+	color: orange;
+}
+
+/* 客户 */
+#s6{
+	background: lightgrey;
+} 
+#s6 .row .col-md-2{
+	/* border: darkgray solid 1px; */
+	padding: 15px;
+} 
+#s6 .row .col-md-2 img{
+	border: darkgray solid 1px;
+	color: lightgrey;
+	/* margin: 10px; */
+} 
+#s6 .row .col-md-2 img:hover {
+	background: white;
+}
+/* 底部 */
+#flooter{
+	background: #363636;
+}
+#flooter img{
+	width: 40px;
+	height: 40px;
+}
+
+
+/* index2 签证加急 */
+/* n1 */
+.n1{
+	background:#f8f8ff;
+}
+.urgent-row {
+    padding: 50px 0;
+}
+.urgent-row .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.urgent-row h2 {
+    margin-top: 60px;
+    color: #0ba1e4;
+}
+.urgent-row .line-big {
+    margin: 0 0 10px 0;
+}
+.urgent-row p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #919191;
+}
+.line-big {
+    margin: 30px auto 26px;
+    border-width: 2px;
+    width: 80px;
+	border-top: 2px solid #0ba1e4;
+}
+.n1 p {
+    margin: 0 0 10px;
+	/* margin-right: 100px; */
+}
+
+.urgent-row img {
+     max-width: 100%;
+}
+
+/* n2 */
+.n2 h2{
+	text-align: right;
+	
+}
+.n2 .line-big{
+	margin-left: 670px;
+}
+/* n3 */
+#n3{
+	background: #0BA1E4;
+	color: white;
+	padding: 25px 0;
+}
+/* n4 */
+#n4{
+	background-image: url(../img/urgent_chat.png);
+	font-family: "等线";
+	/* padding-top: 30px ;
+	padding-bottom: 30px; */
+}
+#n4 .n4p{
+	border-width: 2px;
+	width: 80px;
+	border-top: 2px solid #0ba1e4;
+}
+#n4 .n4p2{
+	padding-left: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+/* index5 资料下载*/
+/* e1 */
+#e1{
+	background: #F8F8F8;
+	margin-top: 80px;
+	padding: 30px 0;
+}
+#e1 .e1p{
+	background: #F5F5F5;
+	padding: 10px 0 10px 20px;
+}
+#e1 .e1bo{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: darkgray solid 1px;
+}
+#e1 .e1bo .media-body p{
+	font-size: 12px;
+}
+#e1 .e1bo .media-body .p1{
+	font-size: 16px;
+	font-weight: 600;
+}
+#e1 .e1bo .media-body .p1:hover{
+	color: #0BA1E4;
+}
+#e1 .e1bo .media-body button{
+	background: #F8F8F8;
+	color: #0BA1E4;
+	border: #0BA1E4 solid 1px;
+}
+#e1 .media-left a img{
+	width: 42p;
+	height: 48px;
+}
+#e1 .ed2{
+	margin-top: 10px;
+	border-left: darkgray solid 1px;
+}
+#e1 .col-sm-3{
+	border-left:1px solid #c1c1c1 ;
+}
+#e1 .e2 h4{
+	border-bottom: 1px solid #c1c1c1;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	font-family: inherit;
+}
+#e1 .e2 .e2-1 {
+	margin-top: 30px;
+	color: orange;
+	font-size: 20px;
+}
+#e1 .e2 .e2-2{
+	margin-top: 30px;
+	list-style-type: none;
+	
+}
+#e1 .e2 .e2-2 li{
+	margin-bottom: 10px;
+	
+}
+#e1 .e2 .e2-2 li:hover{
+	color: #0BA1E4;
+}
+/* index4 签证资讯 */
+/* i1 */
+#i1{
+	background: #F8F8F8;
+	margin-top: 80px;
+	padding: 30px 0;
+}
+#i1 .e1p{
+	background: #F5F5F5;
+	padding: 10px 0 10px 20px;
+}
+#i1 .e1bo{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: darkgray solid 1px;
+}
+#i1 .e1bo p{
+	color: darkgray;
+}
+#i1 .e1bo .media-body p{
+	font-size: 12px;
+}
+#i1 .e1bo .media-body .p1{
+	font-size: 16px;
+	color: #0BA1E4;
+	
+}
+#i1 .e1bo .media-body .p1:hover{
+	font-weight: 600;
+}
+#i1 .e1bo .media-body button{
+	background: #F8F8F8;
+	color: #0BA1E4;
+	border: #0BA1E4 solid 1px;
+}
+#i1 .media-left a img{
+	width: 150px;
+	height: 120px;
+	border-radius: 5%;
+	border: #E1E1E1 solid 1px;
+	padding: 5px;
+}
+#i1 .media-body a{
+	text-decoration: none;
+	color: darkgray;
+}
+#i1 .media-body a:hover{
+	color: orange;
+}
+#i1 .ed2{
+	margin-top: 10px;
+	border-left: darkgray solid 1px;
+}
+#i1 .col-sm-3{
+	border-left:1px solid #c1c1c1 ;
+}
+#i1 .e2 h4{
+	border-bottom: 1px solid #c1c1c1;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	font-family: inherit;
+}
+#i1 .e2 .e2-1 {
+	margin-top: 30px;
+	color: orange;
+	font-size: 20px;
+}
+#i1 .e2 .e2-2{
+	margin-top: 30px;
+	list-style-type: none;
+	
+}
+#i1 .e2 .e2-2 li{
+	margin-bottom: 10px;
+	
+}
+#i1 .e2 .e2-2 li:hover{
+	color: #0BA1E4;
+}
+/* index3 签证服务 */
+/* j1 */
+#j1{
+	background: #F8F8F8;
+	margin-top: 80px;
+	padding: 30px 0;
+}
+#j1 .e1p{
+	background: #F5F5F5;
+	padding: 10px 0 10px 20px;
+}
+#j1 .e1bo{
+	padding-top: 30px;
+	padding-bottom: 15px;
+/* 	border-bottom: darkgray solid 1px; */
+}
+#j1 .e1bo .media-body .p1{
+	font-size: 23px;
+	border-bottom: darkgray 1px dashed;
+}
+#j1 .e1bo .media-body .p1:hover{
+		color: #0BA1E4;
+}
+#j1 .e1bo .media-body button{
+	background: #F8F8F8;
+	color:orange;
+	border: orange solid 1px;
+}
+#j1 .e1bo .media-body button:hover{
+	background: orange;
+	color: white;
+}
+
+#j1 .col-sm-3{
+	border-left:1px solid #c1c1c1 ;
+}
+#j1 .e2 h4{
+	border-bottom: 1px solid #c1c1c1;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	font-family: inherit;
+}
+#j1 .e2 .e2-1 {
+	margin-top: 30px;
+	color: orange;
+	font-size: 20px;
+}
+#j1 .e2 .e2-2{
+	margin-top: 30px;
+	list-style-type: none;
+	
+}
+#j1 .e2 .e2-2 li{
+	margin-bottom: 10px;
+	
+}
+#j1 .e2 .e2-2 li:hover{
+	color: #0BA1E4;
+}
+/* index1 签证指南 */
+/* a1 */
+#a1{
+	background: #F8F8F8;
+	margin-top: 80px;
+	padding: 30px 0;
+}
+#a1 .e1p{
+	background: #F5F5F5;
+	padding: 10px 0 10px 20px;
+}
+#a1 .a2{
+	margin-left: 20px;
+	border-right: darkgray solid 1px;
+}
+#a1 .a2 ul{
+	list-style: none;
+	padding: 0;
+	margin-left: 20px;
+	
+}
+#a1 .a2 ul li{
+	margin: 10px;
+	
+}
+#a1 .a2 ul a{
+	color: black;
+	text-decoration: none;
+}
+#a1 .a2 .li1{
+	color: #0BA1E4;
+/* 	border: #000000 solid 1px;
+	padding: 5px 50px 5px 0; */
+}
